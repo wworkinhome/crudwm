@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo from './src/assets/logo/logowill.png'
+import Logo from './src/assets/logo/logowill.png'
 
 const UserList = ({ usersList, selectUser, getForm, warning }) => {
     
@@ -8,7 +8,7 @@ const UserList = ({ usersList, selectUser, getForm, warning }) => {
     return (
         <div className='list__users'>
             <div>
-            <img src={logo} className='logo'  />
+            <img src={Logo} className='logo'  />
             </div>
             <h2>Usuarios</h2>
             <div className='sumary__list'>
