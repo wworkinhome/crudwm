@@ -7,7 +7,7 @@ const UserList = ({ usersList, selectUser, getForm, warning }) => {
     return (
         <div className='list__users'>
             <div>
-            <img src="./src/assets/logo/logowill.png" className='logo'  />
+            <img src="../src/assets/logo/logowill.png" className='logo'  />
             </div>
             <h2>Usuarios</h2>
             <div className='sumary__list'>
