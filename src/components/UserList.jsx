@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Logo from './assets/img/logo/logowill.png'
+import Logo from './assets/logo/logowill.png'
 
 const UserList = ({ usersList, selectUser, getForm, warning }) => {
     
